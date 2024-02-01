@@ -1,0 +1,12 @@
+:root {
+    --header-color: #94CFFF;
+    --menu-color: #FFFFFF;
+    --button-color: #26C6EA;
+    --button-main-color: #0B0E66;
+    --title-color: #0A3853;
+    --paragraph-color: #000000;
+    --card-color: #141414;
+}
+body {
+    margin: 0 auto;
+}
