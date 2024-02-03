@@ -6,8 +6,23 @@
     --title-color: #0A3853;
     --paragraph-color: #000000;
     --card-color: #141414;
+    --backgraund-color: rgba(43, 74, 97, 0.87);
 }
 body {
     margin: 0 auto;
     width: 1440px;
+}
+ul{
+    list-style: none;
+}
+.main-section{
+    background-image: url(photo/2.jpg);
+    height: 740px;
+    margin-top: 3px;
+    margin-top: -14px;
+}
+.header-section{
+    background-repeat: no-repeat;
+    height: 148px;
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(photo/13.png)
 }
