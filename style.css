@@ -26,3 +26,19 @@ ul{
     height: 148px;
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(photo/13.png)
 }
+.header-logo{
+    margin: 41px 1052px 39px 206px ;
+}
+.list{
+    display: flex;
+    align-items: flex-start;
+    gap: 42px;
+    margin-right: 556px;
+    margin-left:  560px;
+
+}
+.item{
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+
+}
