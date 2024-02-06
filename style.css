@@ -49,11 +49,11 @@ ul{
     font-family: "Inter", sans-serif;
     color: #FFFFFF;
 }
-a{
-    text-decoration: none;
-}
 .item:hover{
     color: var(--header-color);
+}
+a{
+    text-decoration: none;
 }
 .header-button{
 background: var(--button-main-color);
