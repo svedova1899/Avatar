@@ -1,98 +1,108 @@
 :root {
-    --header-color: #94CFFF;
-    --menu-color: #FFFFFF;
-    --button-color: #26C6EA;
-    --button-main-color: #0B0E66;
-    --title-color: #0A3853;
-    --paragraph-color: #000000;
-    --card-color: #141414;
-    --backgraund-color: rgba(43, 74, 97, 0.87);
+  --header-color: #94cfff;
+  --menu-color: #ffffff;
+  --button-color: #26c6ea;
+  --button-main-color: #0b0e66;
+  --title-color: #0a3853;
+  --paragraph-color: #000000;
+  --card-color: #141414;
+  --backgraund-color: rgba(43, 74, 97, 0.87);
 }
 body {
-    margin: 0 auto;
-    width: 1440px;
+  margin: 0 auto;
+  width: 1440px;
 }
-.header{
-    width: 1440px;
-    height: 147px;
-    max-width: 100%;
-    margin: 0 auto;
+.header {
+  width: 1440px;
+  height: 147px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+}
+.main-section {
+  background-image: url(photo/2.jpg);
+  height: 740px;
+  margin-top: 3px;
+  margin-top: -14px;
+}
+.header-section {
+  background-repeat: no-repeat;
+  /* height: 148px; */
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(photo/13.png);
     display: flex;
     justify-content: space-between;
+    width: 1440px;
 }
-ul{
-    list-style: none;
+.header-logo {
+  /* margin: 41px 1052px 39px 206px; */
+  /* margin-top: 41px;
+  margin-left: 206px; */
+  width: 186px;
+  height: 72px;
 }
-.main-section{
-    background-image: url(photo/2.jpg);
-    height: 740px;
-    margin-top: 3px;
-    margin-top: -14px;
+.list {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  /* margin-right: 556px;
+  margin-left: 560px; */
+  justify-content: space-between;
 }
-.header-section{
-    background-repeat: no-repeat;
-    height: 148px;
-    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(photo/13.png)
+a {
+  text-decoration: none;
 }
-.header-logo{
-    margin: 41px 1052px 39px 206px ;
+.header-button {
+  background: var(--button-main-color);
+  border-color: var(--button-color);
+  padding: 12px 35px 12px 35px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
-.list{
-    display: flex;
-    align-items: center;
-    gap: 42px;
-    margin-right: 556px;
-    margin-left: 560px;
-
+.text-button {
+  font-family: "Headland One", serif;
+  color: var(--button-color);
 }
-.item{
+.main-text {
+  font-family: "Inter", sans-serif;
+  color: var(--menu-color);
+}
+.avatar-button {
+  background: var(--button-main-color);
+  border-color: var(--button-color);
+  padding: 12px 35px 12px 35px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.avatar-text {
+  font-family: "Headland One", serif !important;
+  color: var(--button-color);
+  font-size: 24px;
+}
+.programs-item {
+  padding: 9px;
+}
+.header-title {
+  font-family: "Hammersmith One", sans-serif;
+  color: #ffffff;
+}
+.header-list {
+  display: flex;
+}
+.programs-list {
+  margin-left: 1186px;
+  margin-top: 100px;
+}
+.header-nav{
     font-family: "Inter", sans-serif;
-    color: #FFFFFF;
-}
-.item:hover{
-    color: var(--header-color);
-}
-a{
-    text-decoration: none;
-}
-.header-button{
-background: var(--button-main-color);
-border-color: var(--button-color);
-padding: 12px 35px 12px 35px;
-border-top-left-radius: 60px;
-border-bottom-right-radius: 60px;
-}
-.text-button{
- font-family: "Headland One", serif;
- color: var(--button-color);
-}
-.main-text{
-font-family: "Inter", sans-serif;
-color: var(--menu-color);
-}
-.avatar-button{
-    background: var(--button-main-color);
-border-color: var(--button-color);
-padding: 12px 35px 12px 35px;
-border-top-left-radius: 60px;
-border-bottom-right-radius: 60px;
-}
-.avatar-text{
-    font-family: "Headland One", serif;
-    color: var(--button-color);
-}
-.programs-item{
-    padding: 9px;
-}
-.header-title{
-font-family: "Hammersmith One", sans-serif;
-color: #FFFFFF;
-}
-.header-list{
-    display: flex;
-
-}
-.programs-list{
-    margin-left: 1186px;
-    margin-top: 100px;
+    color: #ffffff;
+    font-size: 20px; 
 }
