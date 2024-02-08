@@ -7,6 +7,7 @@
   --paragraph-color: #000000;
   --card-color: #141414;
   --backgraund-color: rgba(43, 74, 97, 0.87);
+  --main-list: rgba(255, 255, 255, 0.7);
 }
 body {
   margin: 0 auto;
@@ -59,6 +60,7 @@ a {
 .header-button {
   background: var(--button-main-color);
   border-color: var(--button-color);
+  border-style: solid;
   padding: 12px 35px 12px 35px;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -78,6 +80,7 @@ a {
 .avatar-button {
   background: var(--button-main-color);
   border-color: var(--button-color);
+  border-style: solid;
   padding: 12px 35px 12px 35px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -104,7 +107,7 @@ a {
 }
 .programs-list {
   margin-left: 1186px;
-  margin-top: 100px;
+  margin-top: -267px;
 }
 .header-nav {
   font-family: "Inter", sans-serif;
@@ -130,6 +133,7 @@ a {
   flex-wrap: wrap;
   margin-left: 165px;
   gap: 21px;
+  padding-top: 183px;
 }
 .main-section2 {
   height: 351px;
@@ -138,8 +142,8 @@ a {
   color: var(--title-color);
   font-size: 36px;
   font-family: "Inter", sans-serif;
-  margin-left: 219px;
   margin-top: 84px;
+  text-align: center;
 }
 .main-title {
   color: var(--paragraph-color);
@@ -152,28 +156,81 @@ a {
 }
 .main-div {
   background-image: url(photo/14.png);
+  background-repeat: no-repeat;
   width: 1440px;
   height: 741px;
+  padding-top: 20px;
 }
-.main-nav{
+.main-nav {
   background: var(--button-main-color);
   border-color: var(--button-color);
   padding: 33px 19px 28px 17px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   border-width: 4px;
+  border-style: solid;
+  width: 260px;
+  display: block;
+  margin: 0 auto;
   margin-top: 330px;
-  margin-left: 590px;
 }
-.section-text2{
+.section-text2 {
   font-family: "Headland One", serif;
   color: var(--button-color);
   font-size: 24px;
+  text-align: center;
 }
-.section-text3{
+.section-text3 {
   color: var(--card-color);
   font-size: 36px;
   font-family: "Inter", sans-serif;
-  margin-left: 219px;
+  text-align: center;
   margin-top: 84px;
+}
+.main-section4 {
+  background-image: url(photo/4.png);
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  padding-bottom: 56px;
+  padding-top: 62px;
+}
+.section-title {
+  color: var(--card-color);
+  font-family: "Headland One", serif;
+  font-size: 32px;
+  text-align: center;
+}
+.section-item {
+  background-color: var(--main-list);
+  width: 320px;
+  height: 240px;
+  padding-top: 18px;
+}
+.section-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  padding-left: 0;
+}
+.list-wrap {
+  width: 1035px;
+  outline: 1px solid tomato;
+  margin: 0 auto;
+}
+.text-dialog {
+  color: var(--card-color);
+  font-size: 24px;
+  font-family: "Headland One", serif;
+  text-align: center;
+}
+.img-dialog {
+  width: 152px;
+  margin-left: 82px;
+}
+.text-dialog2 {
+  color: var(--paragraph-color);
+  font-size: 24px;
+  font-family: "Headland One", serif;
+  text-align: center;
+  
 }
