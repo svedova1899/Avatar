@@ -214,7 +214,6 @@ a {
 }
 .list-wrap {
   width: 1035px;
-  outline: 1px solid tomato;
   margin: 0 auto;
 }
 .text-dialog {
@@ -233,4 +232,41 @@ a {
   font-family: "Headland One", serif;
   text-align: center;
   
+}
+.main-title2{
+  color: var(--paragraph-color);
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  margin-left: 675px;
+}
+.section-text4{
+  color: var(--card-color);
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.footer-section{
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(photo/15.png);
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 223px;
+}
+.footer-logo{
+  margin-left: 204px;
+  margin-top: 77px;
+  width: 183px;
+  height: 70px;
+}
+.inline{
+  height: 153px;
+  width: 1px;
+  color: var(--menu-color);
 }
