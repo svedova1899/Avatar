@@ -282,7 +282,6 @@ a {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   margin-left: 678px;
-  /* text-align: center; */
 }
 .paragraph-footer {
   color: var(--menu-color);
@@ -300,7 +299,6 @@ a {
 .second-email-paragraph {
   margin-top: -20px;
 }
-/* animation */
 .text-focus-in {
   animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
